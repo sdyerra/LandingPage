@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+#footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2D4A8A;
+    right: -45%;
+    position: relative;
+    padding-bottom: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hr {
+    border-bottom: 3px solid #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#headerpic {
+    content: url("U.S.-Army-Logo.png");
+    padding-left: 100px;
+    width: 105px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.armymed-1 {
+    color: #5d0f32;
+    font-size: 20px;
+    font-family: SourceSansPro-Bold, Source Sans Pro;
+    font-weight: 1000;
+    position: relative;
+    left: 8%;
 }
 
-.App-link {
-  color: #61dafb;
+.armymed-2 {
+    color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#leftbox {
+   
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+.topnav {
+    padding-left: 55px;
+    background-color: #2D4A8A;
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+  
+.topnav a:hover {
+    background-color: #1D3367;
 }
