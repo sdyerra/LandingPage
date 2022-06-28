@@ -2,52 +2,52 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-#footer {
+footer {
     font-family: 'Source Sans Pro', sans-serif;
     color: #2D4A8A;
-    right: -45%;
     position: relative;
-    padding-bottom: 15px;
+    text-align: center;
+    padding-bottom: 2px;
 }
 
-#hr {
-    border-bottom: 3px solid #000000;
+html, body, #root {
+    height:100%;
+    min-height: 100vh;
+    min-height: 100%;
+}
+.armygrid {
+    display:inline-block;
 }
 
+#armyscarb {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A23F3D;
+    transform: translate(100px, -45px);
+}
 #headerpic {
     content: url("U.S.-Army-Logo.png");
     padding-left: 100px;
     width: 105px;
 }
-
 .armymed-1 {
     color: #5d0f32;
     font-size: 20px;
     font-family: SourceSansPro-Bold, Source Sans Pro;
     font-weight: 1000;
     position: relative;
-    left: 8%;
+    left: 40%;
+    transform:translateY(-15px)
 }
-
 .armymed-2 {
     color: #000;
 }
-
-#leftbox {
-   
-    height: 50px;
-    width: 50px;
-    border-width: 3px;
-    border-color: #000000;
-}
-
 .topnav {
     padding-left: 55px;
     background-color: #2D4A8A;
     overflow: hidden;
+    transform: translateY(-35px);
 
 }
-
 .topnav a {
     float: left;
     color: #ffffff;
@@ -57,8 +57,10 @@
     font-size: 17px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-  
-  
 .topnav a:hover {
     background-color: #1D3367;
+}
+
+.armybar {
+    transform: translate(50px, -30px);
 }

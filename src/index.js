@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Table from './Table';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -9,3 +10,9 @@ root.render(
   </React.StrictMode>
 );
 
+const tableirr = ReactDOM.createRoot(document.getElementById('tableirr'));
+tableirr.render(
+  <React.StrictMode>
+    <Table/>
+  </React.StrictMode>
+);
