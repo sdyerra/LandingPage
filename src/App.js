@@ -13,9 +13,9 @@ function App() {
         <p id="armyscarb">SCARB REVIEW</p>
       </div>
       <div class="topnav">
-        <a href="home"> <img alt="HOME" src={house} width="12" /> HOME</a>
-        <a href="create"><img alt="CREATE" src={create} width="12" /> CREATE</a>
-        <a href="monthreview"><img alt="REVIEW" src={monthreview} width="17" /> SCARB MONTHLY REVIEW SCHEDULE</a>
+        <a href="home"> <img alt="HOME" src={house} width="13" /> HOME</a>
+        <a href="create"><img alt="CREATE" src={create} width="11" /> CREATE</a>
+        <a href="monthreview"><img alt="REVIEW" src={monthreview} width="12" /> SCARB MONTHLY REVIEW SCHEDULE</a>
       </div>
     </div>
   );
