@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.box {
+    border:1px solid #DBDBDB;
+    width:67%;
+    height: 50vh;
+    margin:0;
+    padding: 0;
+    left: 3%;
+    position:absolute;
+    float: left;
+}
+.topbar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18pt;
+    color: white;
+    background-color: #3C7ECC;
+    position: relative;
+    border:1px #707070;
+}
+.topbar button {
+    background-color: #86a62b;
+    border-color: #5c7100;
+    color:white;
+    font-size: 14pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 87%;
+    transform: translate(0px, -75px);
+}
+
+.topbar counter {
+    background-color: #134E8F;
+    border: 1px #707070;
+    border-radius: 30%;
+}

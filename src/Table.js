@@ -6,6 +6,10 @@ export default function Table() {
             <div class="topbar">
                 <p>IN REVIEW REQUESTS</p>
                 <button>SAVE AS</button>
+                <div>
+                    <counter>5</counter>
+                </div>
+                
             </div>
             <div>
                 <p>
