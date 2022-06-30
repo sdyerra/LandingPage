@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Table from './Table';
 import Filter from './Filter';
+import Newscalandartemp from './Newscalandartemp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,3 +27,12 @@ filter.render(
     <Filter/>
   </React.StrictMode>
 );
+
+const nct = ReactDOM.createRoot(document.getElementById('nct'));
+
+nct.render(
+  <React.StrictMode>
+    <Newscalandartemp/>
+  </React.StrictMode>
+);
+

@@ -4,7 +4,7 @@
 .box {
     border:1px solid #DBDBDB;
     width:67%;
-    height: 50vh;
+    height: 92vh;
     margin:0;
     padding: 0;
     left: 3%;
@@ -13,25 +13,35 @@
 }
 .topbar {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18pt;
+    font-size: 11pt;
     color: white;
     background-color: #3C7ECC;
     position: relative;
-    border:1px #707070;
+    border:1px solid #707070;
 }
 .topbar button {
     background-color: #86a62b;
     border-color: #5c7100;
     color:white;
-    font-size: 14pt;
+    font-size: 11pt;
     font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    left: 74%;
+    top: 20%;
+}
+
+.topbar p {
     position: relative;
-    left: 87%;
-    transform: translate(0px, -75px);
 }
 
 .topbar counter {
     background-color: #134E8F;
-    border: 1px #707070;
-    border-radius: 30%;
+    border: 4px solid #134E8F;
+    border-radius: 5pt;
+    border-width: 9pt;
+    border-top-width: 4pt;
+    border-bottom-width: 4pt;
+    position: absolute;
+    top: 20%;
+    right: 70%;
 }
