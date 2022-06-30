@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 .boxr {
-    border:1px solid #DBDBDB;
+    border:1px solid #707070;
     width:26%;
-    height: 98vh;
+    height: 98%;
     padding: 0;
     float: right;
     position: absolute;
@@ -13,19 +13,64 @@
 
 .sfy {
     
-    border:1px solid #707070;
+    border-top:1px solid #8A9DCB;
+    border-bottom: 1px solid #707070;
     background-color: #8A9DCB;
+    height: 5%;
+    width: 100%;
 }
 
 .sfy p {
     font-size: 11pt;
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(255, 255, 255);
+    position: relative;
+    right: -5%;
+    font-weight: bold;
 }
 
 .sfy select {
     position: absolute;
     right: 2%;
-    top: 3%;
+    top: 1.5%;
 
+}
+
+.filterstitle {
+    width: 100%;
+    height: 3%;
+    border-bottom:1px solid #707070;
+}
+
+.filterstitle t {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+    position: absolute;
+    right: 65%;
+    top: 6%;
+}
+
+.filterstitle p {
+    position: relative;
+    top: -17%;
+    right: -55%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+}
+
+.filterstitle select {
+    width: 32%;
+    position: absolute;
+    right: 3%;
+    top: 6.2%;
+}
+
+.filters {
+
+}
+
+.filters p {
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
 }

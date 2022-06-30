@@ -10,6 +10,17 @@ export default function Filter()
                 <option value="starter" selected>FY2017</option>
                 </select>
             </div>
+            <div class="filterstitle">
+                <t>FILTERS</t>
+                <p>DIR</p>
+                <select>
+                    <option>ALL</option>
+                </select>
+            </div>
+            <div class="filters">
+                <p>Contract Number #</p>
+                <input></input>
+            </div>
         </div>
     );
 }

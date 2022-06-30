@@ -32,6 +32,8 @@
 
 .topbar p {
     position: relative;
+    right: -1%;
+    font-weight: bold;
 }
 
 .topbar counter {
@@ -42,6 +44,6 @@
     border-top-width: 4pt;
     border-bottom-width: 4pt;
     position: absolute;
-    top: 20%;
-    right: 70%;
+    right: 73%;
+    top: 17%;
 }
