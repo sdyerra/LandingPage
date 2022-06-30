@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.newsbox {
+    border:1px solid black;
+}
+
+.news {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 123%;
+    right:87%;
+}
+
+.cal {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 125%;
+    right:75%;
+}
+
+.templ {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 125%;
+    right:50%;
+}

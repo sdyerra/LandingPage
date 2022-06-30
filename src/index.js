@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Table from './Table';
 import Filter from './Filter';
-import Newscalandartemp from './Newscalandartemp';
+import Newscalendartemp from './Newscalendartemp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,7 +32,7 @@ const nct = ReactDOM.createRoot(document.getElementById('nct'));
 
 nct.render(
   <React.StrictMode>
-    <Newscalandartemp/>
+    <Newscalendartemp/>
   </React.StrictMode>
 );
 
