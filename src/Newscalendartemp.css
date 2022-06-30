@@ -1,27 +1,46 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-.newsbox {
-    border:1px solid black;
+.nctbox {
+    border:1px solid #002270;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 123%;
+    left: 3%;
+    width: 67%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+
 }
 
 .news {
-    font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
-    top: 123%;
-    right:87%;
+    background-color: #DE4655;
+    width: 33.33%;
+}
+
+.news p {
+    position: relative;
+    right: -15%;
 }
 
 .cal {
-    font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
-    top: 125%;
-    right:75%;
+    background-color: #EB8322;
+    width: 33.33%;
+}
+
+.cal p {
+    position: relative;
+    right: -15%;
 }
 
 .templ {
-    font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
-    top: 125%;
-    right:50%;
+    background-color: #47BA75;
+    width: 33.33%;
+}
+
+.templ p {
+    position: relative;
+    right: -15%;
 }
