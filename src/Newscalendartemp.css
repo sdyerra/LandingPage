@@ -10,6 +10,7 @@
     top: 123%;
     left: 3%;
     width: 67%;
+    height: 4.75%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: white;
@@ -19,31 +20,37 @@
 .news {
     background-color: #DE4655;
     width: 33.33%;
+    height: 100%;
     border-right: 2px solid #002270;
 }
 
 .news p {
     position: relative;
     right: -15%;
+    top: -6%;
 }
 
 .cal {
     background-color: #EB8322;
     width: 33.33%;
+    height: 100%;
     border-right: 2px solid #002270;
 }
 
 .cal p {
     position: relative;
     right: -15%;
+    top: -6%;
 }
 
 .templ {
     background-color: #47BA75;
     width: 33.33%;
+    height: 100%;
 }
 
 .templ p {
     position: relative;
     right: -15%;
+    top: -6%;
 }
