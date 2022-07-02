@@ -18,8 +18,11 @@ export default function Filter()
                 </select>
             </div>
             <div class="filters">
-                <p>Contract Number #</p>
+                <p id="contract">Contract Number #</p>
                 <input></input>
+            </div>
+            <div class="wheel">
+                <p>STAGES</p>
             </div>
         </div>
     );
