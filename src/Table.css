@@ -5,19 +5,19 @@
     border:1px solid #DBDBDB;
     width:67%;
     height: 92vh;
-    margin:0;
     padding: 0;
-    left: 3%;
-    position:absolute;
     float: left;
+    margin-left: 3%;
 }
 .topbar {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
     color: white;
     background-color: #3C7ECC;
-    position: relative;
+    width: 100%;
     border:1px solid #707070;
+    display: inline-flex;
+    align-items: center;
 }
 .topbar button {
     background-color: #86a62b;
@@ -25,15 +25,13 @@
     color:white;
     font-size: 11pt;
     font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
-    left: 74%;
-    top: 20%;
+    height: 50%;
+    margin-left: 63%;
 }
 
 .topbar p {
-    position: relative;
-    right: -1%;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .topbar counter {
@@ -43,7 +41,6 @@
     border-width: 9pt;
     border-top-width: 4pt;
     border-bottom-width: 4pt;
-    position: absolute;
-    right: 73%;
-    top: 17%;
+    height: 50%;
+    margin-left: 5px;
 }

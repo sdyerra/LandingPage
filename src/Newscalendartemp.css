@@ -3,18 +3,18 @@
 
 .nctbox {
     border:2px solid #002270;
-    display: flex;
+    display:inline-flex;
+    margin-left: 3%;
+    margin-top: 2%;
     align-items: flex-start;
     justify-content: space-between;
-    position: absolute;
-    top: 123%;
-    left: 3%;
     width: 67%;
-    height: 4.75%;
+    top: 123%;
+    height: 4%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: white;
-
+    cursor:pointer;
 }
 
 .news {
@@ -53,4 +53,19 @@
     position: relative;
     right: -15%;
     top: -6%;
+}
+
+#arrow {
+    width: 1.5%;
+    position: absolute;
+    top: 127.5%;
+    left: 67.5%;
+}
+
+#arrow2 {
+    width: 1.5%;
+    position: absolute;
+    top: 127.5%;
+    left: 67.5%;
+    transform: rotate(0.5turn);
 }

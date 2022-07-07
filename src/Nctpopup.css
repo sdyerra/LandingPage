@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.popup {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 94.6%;
+    left: 3.6%;
+    width: 66.15%;
+    height: 30%;
+    color: black;
+    background-color: aliceblue;
+    border: 2px solid rgb(115, 115, 115);
+    overflow: auto;
+}

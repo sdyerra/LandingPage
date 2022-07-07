@@ -4,11 +4,11 @@ export default function Table() {
     return (
         <div class="box">
             <div class="topbar">
-                <p>IN REVIEW REQUESTS</p>
-                <button>SAVE AS</button>
                 <div>
-                    <counter>5</counter>
+                    <p>IN REVIEW REQUESTS</p>
                 </div>
+                <counter>5</counter>
+                <button>SAVE AS</button>
                 
             </div>
             <div>

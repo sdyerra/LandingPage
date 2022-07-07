@@ -22,7 +22,7 @@ export default function Filter()
                 <input></input>
             </div>
             <div class="wheel">
-                <p>STAGES</p>
+                <t>STAGES</t>
             </div>
         </div>
     );
