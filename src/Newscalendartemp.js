@@ -27,19 +27,26 @@ export default function Newscalendartemp()
 
     return (
         <div class="nctbox" onClick={handleClick}>
-            <div style={{display:display}}>
-                <Nctpopup></Nctpopup>
-            </div>
             <div class="news">
                 <p>NEWS UPDATES</p>
+                <div style={{display:display}}>
+                    <Nctpopup></Nctpopup>
+                </div>
             </div>
             <div class="cal">
                 <p>CALENDAR</p>
+                <div style={{display:display}}>
+                    <Nctpopup></Nctpopup>
+                </div>
             </div>
             <div class="templ">
                 <p>TEMPLATES</p>
                 <img id={style} src={arrow} alt="none"></img>
+                <div style={{display:display}}>
+                    <Nctpopup></Nctpopup>
+                </div>
             </div>
+            
         </div>
     );
 }

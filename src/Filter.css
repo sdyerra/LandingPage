@@ -87,10 +87,10 @@
     height: 31.71%;
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
+    justify-content: center;
 }
 
 .wheel t {
-    margin-left: 40%;
     font-size: 19pt;
 
 }
