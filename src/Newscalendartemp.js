@@ -8,45 +8,52 @@ export default function Newscalendartemp()
 {
     const [ display, setDisplay ] = useState( 'none' )
     const [ style, setStyle ] = useState('arrow')
+    const [ box, setBox ] = useState('nctbox')
 
     function handleClick() {
 
         if ( display === 'none') {
 
-            setDisplay( 'block' )
+            setDisplay('block');
             setStyle('arrow2');
+            setBox('nctbox2');
 
         } else {
 
-            setDisplay( 'none' )
+            setDisplay('none');
             setStyle('arrow');
+            setBox('nctbox');
 
         }
 
     }
-
     return (
-        <div class="nctbox" onClick={handleClick}>
+        <div class={box} onClick={handleClick}>
             <div class="news">
-                <p>NEWS UPDATES</p>
+                <div>
+                    <p>NEWS UPDATES</p>
+                </div>
                 <div style={{display:display}}>
                     <Nctpopup></Nctpopup>
                 </div>
             </div>
             <div class="cal">
-                <p>CALENDAR</p>
+                <div>
+                    <p>CALENDAR</p>
+                </div>
                 <div style={{display:display}}>
                     <Nctpopup></Nctpopup>
                 </div>
             </div>
             <div class="templ">
-                <p>TEMPLATES</p>
-                <img id={style} src={arrow} alt="none"></img>
+                <div id="templbox">
+                    <p>TEMPLATES</p>
+                    <img id={style} src={arrow} alt="none"></img>
+                </div>
                 <div style={{display:display}}>
                     <Nctpopup></Nctpopup>
                 </div>
             </div>
-            
         </div>
     );
 }
