@@ -1,0 +1,278 @@
+{
+  "owssvr": [
+    {
+      "Directorates": "G1",
+      "Primary Staff": "G146",
+      "Contract Term": "BASE",
+      "Contract Category": "IT Contract",
+      "Contract Type": "FFP- Firm Fixed Price",
+      "Appropriation": "DHP",
+      "Organization": "Direct Reporting Organization",
+      "TSGLineofEfforts": "Readiness and Health",
+      "Special Fund": "AMAP",
+      "BAGNumber": "101",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "G4",
+      "Primary Staff": "QandS",
+      "Contract Term": "OP1",
+      "Contract Category": "Maintenance Contract",
+      "Contract Type": "Cost Reimbursable",
+      "Appropriation": "DHP RDT&E",
+      "Organization": "Army Command",
+      "TSGLineofEfforts": "Healthcare Delivery",
+      "Special Fund": "BHSL",
+      "BAGNumber": "102",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "G6",
+      "Primary Staff": "G357",
+      "Contract Term": "OP2",
+      "Contract Category": "Support Services Contract",
+      "Contract Type": "FP- Fixed Price Incentive",
+      "Appropriation": "DHP Procurement",
+      "Organization": "Army Service Component Command",
+      "TSGLineofEfforts": "Force Development",
+      "Special Fund": "CNP",
+      "BAGNumber": "103",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "AHRPO",
+      "Primary Staff": "PROC",
+      "Contract Term": "OP3",
+      "Contract Category": "Sample/Sample Analysis Contract",
+      "Contract Type": "IDIQ Labor",
+      "Appropriation": "DOD",
+      "Organization": "HQDA Principal",
+      "TSGLineofEfforts": "Take Care of Ourselves Soldiers for Life, DA Civilians & Families",
+      "Special Fund": "IDES",
+      "BAGNumber": "104",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "EXE AG",
+      "Primary Staff": "PH",
+      "Contract Term": "OP4",
+      "Contract Category": "Contract Other",
+      "Contract Type": "IDIQ Time and Material",
+      "Appropriation": "OMA - Army",
+      "TSGLineofEfforts": "F1- Financial - Optimize Financial Resources",
+      "Special Fund": "N/A",
+      "BAGNumber": "105",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "CHRD",
+      "Primary Staff": "G89",
+      "Contract Term": "OP5",
+      "Contract Type": "BPA- Blanket Purchase Agreement",
+      "Appropriation": "OPA - Army",
+      "TSGLineofEfforts": "OC1- Improve & Empowere Highly Effective Work Teams",
+      "Special Fund": "OTHER",
+      "BAGNumber": "106",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "HRO TF",
+      "Primary Staff": "WCT",
+      "Contract Term": "-8 EXT",
+      "Contract Type": "GSA",
+      "Appropriation": "RDT&E-Army",
+      "TSGLineofEfforts": "OC2- Balance and Align MEDCOM in Support of the Army & Joint Forces",
+      "BAGNumber": "107",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "PHARM",
+      "Primary Staff": "DCoS-SS",
+      "Contract Term": "ADD",
+      "Contract Type": "Other",
+      "Appropriation": "Other",
+      "TSGLineofEfforts": "OC3-Improve Physical, Ethical & Cultural Environments",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "SAFETY",
+      "Primary Staff": "DCoS",
+      "Contract Term": "ADJ",
+      "TSGLineofEfforts": "OC4-Optimize Process Based Management in an Operational Company",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "QandS",
+      "Primary Staff": "TSG",
+      "Contract Term": "MODS",
+      "TSGLineofEfforts": "OC5- Enhance Communication, Knowledge Mgmt & Decision Support",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "CPAD",
+      "Primary Staff": "MEDCOM Commander",
+      "TSGLineofEfforts": "IP1-Optimize Soldier Protection in all Environments",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "CTRPO",
+      "TSGLineofEfforts": "IP2- Improve Joint &amp; Global Health Partnerships & Engagements",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "PCI",
+      "TSGLineofEfforts": "IP3-Improve Operational Professional Readiness",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "STR OUTREACH",
+      "TSGLineofEfforts": "IP4-Leverage Health Information Technology (HIT) to Enhance Expeditionary Medicine",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "DENT",
+      "TSGLineofEfforts": "IP5- Improve Integrated Disability Evaluation System Processing",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "HCD",
+      "TSGLineofEfforts": "IP6-Improve Care, Quality & Safety in a High Reliability Organization",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "HCO",
+      "TSGLineofEfforts": "IP7-Manage the Direct Care System",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "G8",
+      "TSGLineofEfforts": "IP8-Improve Primary & Speciality Care",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "OTSG MPWR",
+      "TSGLineofEfforts": "IP9-Improve Healthy Behaviors, Communities, & Environments",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "OTSG OPS RandM",
+      "TSGLineofEfforts": "IP10-Leverage Medical Research, Development & Logistics Management",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "STRATEGY MGT",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "G9",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "PAandE",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "HFPA",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "WCTP SYNCHR",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "WCTP SOLDIER",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "AW2",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "DMVL",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "CMIO",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "TALENT MGT",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "G3",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "APHC",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "Business Office",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "EO",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "FOIA",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "IRACO",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "MMAG",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "Retention",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    },
+    {
+      "Directorates": "EEO (MCEE)",
+      "Item Type": "Item",
+      "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
+    }
+  ]
+}

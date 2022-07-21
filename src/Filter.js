@@ -1,7 +1,9 @@
+import React from 'react';
 import './Filter.css';
 
 export default function Filter()
 {
+    // HTML below is for filters
     return (
         <div class="boxr">
             <div class="sfy">

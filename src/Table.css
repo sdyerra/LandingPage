@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-.box {
+.table {
     border:1px solid #DBDBDB;
     width:67%;
     height: 92vh;

@@ -1,15 +1,24 @@
+import React from 'react';
 import './Table.css';
-export default function Table() {
+import Contractsdata from './contracts.json';
+
+function setupContractData() {
+    // Open Indexeddb for contracts
     
+}
+
+setupContractData();
+
+export default function Table() {
+    // HTML below is for table
     return (
-        <div class="box">
+        <div class="table">
             <div class="topbar">
                 <div>
                     <p>IN REVIEW REQUESTS</p>
                 </div>
                 <counter>5</counter>
                 <button>SAVE AS</button>
-                
             </div>
             <div>
                 <p>
