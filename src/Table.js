@@ -1,13 +1,49 @@
 import React from 'react';
 import './Table.css';
-import Contractsdata from './contracts.json';
+import ContractsData from './contracts.json';
 
-function setupContractData() {
+const dbName = "contracts_database";
+
+
     // Open Indexeddb for contracts
-    
-}
+    const request = window.indexedDB.open(dbName, 1);
 
-setupContractData();
+    request.onerror = event => {
+        console.log("Database error: " + event.target.errorCode);
+    };
+
+    request.onupgradeneeded = event => {
+        const db = event.target.result;
+
+        const objectStore = db.createObjectStore("contracts", {autoIncrement: true});
+
+        objectStore.transaction.oncomplete = event => {
+            const contractObjectStore = db.transaction("contracts", "readwrite").objectStore("contracts");
+            ContractsData.forEach(function(contract) {
+              contractObjectStore.add(contract);
+            });
+            
+        };
+    };
+
+
+
+
+function getContract(key) {
+    const request = db.transaction('students')
+                   .objectStore('students')
+                   .get(key);
+
+    request.onsuccess = ()=> {
+        const student = request.result;
+
+        return student;
+    }
+
+    request.onerror = (err)=> {
+        console.error(`Error to get student information: ${err}`)
+    }
+}
 
 export default function Table() {
     // HTML below is for table

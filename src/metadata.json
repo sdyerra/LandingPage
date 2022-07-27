@@ -1,5 +1,4 @@
-{
-  "owssvr": [
+[
     {
       "Directorates": "G1",
       "Primary Staff": "G146",
@@ -274,5 +273,4 @@
       "Item Type": "Item",
       "Path": "sites/medcombusoffice/scarbprocess/Lists/SCAContractMetadataPropertiesList"
     }
-  ]
-}
+]

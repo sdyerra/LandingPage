@@ -4,6 +4,33 @@ import './Nctpopup';
 import { useState } from 'react';
 import Nctpopup from './Nctpopup';
 import arrow from './arrow.png';
+import NewsData from './news.json';
+
+function setupNewsData() {
+    const dbName = "news_database";
+
+    // Open Indexeddb for contracts
+    const request = window.indexedDB.open(dbName, 1);
+
+    request.onerror = event => {
+        console.log("Database error: " + event.target.errorCode);
+    };
+
+    request.onupgradeneeded = event => {
+        const db = event.target.result;
+
+        const objectStore = db.createObjectStore("news", {autoIncrement: true});
+
+        objectStore.transaction.oncomplete = event => {
+            const newsObjectStore = db.transaction("news", "readwrite").objectStore("news");
+            NewsData.forEach(function(news) {
+              newsObjectStore.add(news);
+            });
+        };
+    };
+}
+
+setupNewsData();
 
 export default function Newscalendartemp()
 {
@@ -29,7 +56,6 @@ export default function Newscalendartemp()
             setBox('nctbox');
 
         }
-
     }
     // HTML below is for nctbox
     return (
