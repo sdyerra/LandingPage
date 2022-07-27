@@ -3,20 +3,25 @@ import './Table.css';
 import ContractsData from './contracts.json';
 
 const dbName = "contracts_database";
+let db;
 
 
     // Open Indexeddb for contracts
     const request = window.indexedDB.open(dbName, 1);
 
+    // If error opening the Database
     request.onerror = event => {
         console.log("Database error: " + event.target.errorCode);
     };
 
+    // When data needs to be added/changed
     request.onupgradeneeded = event => {
-        const db = event.target.result;
+        db = event.target.result;
+        console.log("hello");
 
         const objectStore = db.createObjectStore("contracts", {autoIncrement: true});
 
+        // After ObjectStore is created add all the contracts
         objectStore.transaction.oncomplete = event => {
             const contractObjectStore = db.transaction("contracts", "readwrite").objectStore("contracts");
             ContractsData.forEach(function(contract) {
@@ -26,24 +31,21 @@ const dbName = "contracts_database";
         };
     };
 
-
-
-
 function getContract(key) {
-    const request = db.transaction('students')
-                   .objectStore('students')
-                   .get(key);
+    const request = db.transaction('contract_database').objectStore('contracts').get(key);
+    console.log(request);
 
     request.onsuccess = ()=> {
-        const student = request.result;
-
-        return student;
+        const contract = request.result;
+        console.log(contract);
+        //return contract;
     }
 
     request.onerror = (err)=> {
         console.error(`Error to get student information: ${err}`)
     }
 }
+
 
 export default function Table() {
     // HTML below is for table
@@ -53,7 +55,7 @@ export default function Table() {
                 <div>
                     <p>IN REVIEW REQUESTS</p>
                 </div>
-                <counter>5</counter>
+                <p id="counter">5</p>
                 <button>SAVE AS</button>
             </div>
             <div>
