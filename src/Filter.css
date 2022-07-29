@@ -42,7 +42,7 @@
     overflow: hidden;
 }
 
-.filterstitle t {
+#heading {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
     font-size: 15pt;
@@ -90,7 +90,7 @@
     justify-content: center;
 }
 
-.wheel t {
+.wheel h1 {
     font-size: 19pt;
 
 }

@@ -1,13 +1,14 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-.table {
+.box {
     border:1px solid #DBDBDB;
     width:67%;
     height: 92vh;
     padding: 0;
     float: left;
     margin-left: 3%;
+    overflow: auto;
 }
 .topbar {
     font-family: 'Source Sans Pro', sans-serif;
@@ -18,7 +19,7 @@
     border:1px solid #707070;
     display: inline-flex;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
 }
 .topbar button {
     background-color: #86a62b;
@@ -44,4 +45,17 @@
     border-bottom-width: 4pt;
     height: 50%;
     margin-left: 5px;
+}
+
+.table {
+
+}
+
+#tableheading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10pt;
+    background-color: #6A9ED8;
+    color: white;
+    width: 100%;
+    border:1px solid #707070;
 }

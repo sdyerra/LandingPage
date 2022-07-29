@@ -13,7 +13,7 @@ export default function Filter()
                 </select>
             </div>
             <div class="filterstitle">
-                <t>FILTERS</t>
+                <p id="heading">FILTERS</p>
                 <p>DIR</p>
                 <select>
                     <option>ALL</option>
@@ -24,7 +24,7 @@ export default function Filter()
                 <input></input>
             </div>
             <div class="wheel">
-                <t>STAGES</t>
+                <h1>STAGES</h1>
             </div>
         </div>
     );
