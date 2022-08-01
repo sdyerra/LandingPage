@@ -101,6 +101,39 @@ export default function Table() {
                         <td></td>
                         <td>Approved by COS</td>
                     </tr>
+                    <tr>
+                        <td>{data[1]['SCA Number']}</td>
+                        <td>Sep 2016 to Aug 2021</td>
+                        <td>$123456789</td>
+                        <td>$987654321</td>
+                        <td>TestAdmin</td>
+                        <td>BASE</td>
+                        <td>29/29/29</td>
+                        <td></td>
+                        <td>Approved by COS</td>
+                    </tr>
+                    <tr>
+                        <td>{data[2]['SCA Number']}</td>
+                        <td>Sep 2016 to Aug 2021</td>
+                        <td>$123456789</td>
+                        <td>$987654321</td>
+                        <td>TestAdmin</td>
+                        <td>BASE</td>
+                        <td>29/29/29</td>
+                        <td></td>
+                        <td>Approved by COS</td>
+                    </tr>
+                    <tr>
+                        <td>{data[3]['SCA Number']}</td>
+                        <td>Sep 2016 to Aug 2021</td>
+                        <td>$123456789</td>
+                        <td>$987654321</td>
+                        <td>TestAdmin</td>
+                        <td>BASE</td>
+                        <td>29/29/29</td>
+                        <td></td>
+                        <td>Approved by COS</td>
+                    </tr>
                 </table>
             </div>
         </div>
