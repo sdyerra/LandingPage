@@ -8,17 +8,19 @@
     padding: 0;
     float: left;
     margin-left: 3%;
+    overflow: auto;
 }
 .topbar {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
+    margin-left: 3%;
     color: white;
     background-color: #3C7ECC;
-    width: 100%;
+    width: 67%;
     border:1px solid #707070;
     display: inline-flex;
     align-items: center;
-    overflow: auto;
+    position: sticky;
 }
 .topbar button {
     background-color: #86a62b;
@@ -47,15 +49,24 @@
 }
 
 .table {
-    border:1px solid rgb(0, 0, 0);
-    overflow: auto;
+    overflow:scroll;
     font-family: 'Source Sans Pro', sans-serif;
+    table-layout: fixed;
+    word-wrap: break-word;
 }
 
-#tableheading {
+.table thead {
     font-family: 'Lato', sans-serif;
     font-size: 10pt;
     background-color: #6A9ED8;
     color: white;
     width: 100%;
+    top: 0px;
+    position: sticky;
+}
+
+.tablecontent {
+    table-layout: fixed;
+    word-wrap: break-word;
+    overflow: auto; 
 }

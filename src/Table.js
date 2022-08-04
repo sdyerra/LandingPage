@@ -42,6 +42,7 @@ var tablePromise = new Promise(function(resolve, reject) {
 
         getReq.onsuccess = () => {
             console.log("Getting contract data was successful");
+            console.log(getReq.result);
             resolve();
         }
 
@@ -54,13 +55,36 @@ var tablePromise = new Promise(function(resolve, reject) {
 });
 
 
+
+
 export default function Table() {
 
     // Hook for Contract Data in Table
-    const [data, setData] = useState("Loading....");
+    const [data, setData] = useState([{Title: "Loading", AMSCO: "Loading"},]);
+
+    // Dynamically fetching all data from Indexeddb using map
+    function TableContent() {
+        return (
+            <tbody>              
+                {data.map((contract) => (
+                    <tr key={contract.ID}>
+                        <td>{contract['SCA Number']}</td>
+                        <td>Sep 2016 to Aug 2021</td>
+                        <td>${contract['Total Project Cost']}</td>
+                        <td>$1000</td>
+                        <td>{contract["Created By"]}</td>
+                        <td>{contract['Contract Term']}</td>
+                        <td>1/1/11</td>
+                        <td></td>
+                        <td>{contract["Status:Title"]}</td>
+                    </tr>
+              ))}
+            </tbody>
+          );
+    };
 
     // function for adding data to the table
-    function addTableData(props) {
+    function addTableData() {
         setData(getReq.result);
     }
 
@@ -69,73 +93,34 @@ export default function Table() {
 
     // HTML below is for table
     return (
-        <div class="box">
-            <div class="topbar">
+        <div>
+        <div class="topbar">
                 <div>
                     <p>IN REVIEW REQUESTS</p>
                 </div>
                 <p id="counter">5</p>
                 <button>SAVE AS</button>
             </div>
-            <div class="table">
-                <table>
-                    <tr id="tableheading">
-                        <th>SCA Number</th>
-                        <th>Contract Duration</th>
-                        <th>Total Project Cost</th>
-                        <th>Requested Cost</th>
-                        <th>COR</th>
-                        <th>Contract Term</th>
-                        <th>Submission Date</th>
-                        <th>SCARB Review</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>{data[0]['SCA Number']}</td>
-                        <td>Sep 2016 to Aug 2021</td>
-                        <td>$123456789</td>
-                        <td>$987654321</td>
-                        <td>TestAdmin</td>
-                        <td>BASE</td>
-                        <td>29/29/29</td>
-                        <td></td>
-                        <td>Approved by COS</td>
-                    </tr>
-                    <tr>
-                        <td>{data[1]['SCA Number']}</td>
-                        <td>Sep 2016 to Aug 2021</td>
-                        <td>$123456789</td>
-                        <td>$987654321</td>
-                        <td>TestAdmin</td>
-                        <td>BASE</td>
-                        <td>29/29/29</td>
-                        <td></td>
-                        <td>Approved by COS</td>
-                    </tr>
-                    <tr>
-                        <td>{data[2]['SCA Number']}</td>
-                        <td>Sep 2016 to Aug 2021</td>
-                        <td>$123456789</td>
-                        <td>$987654321</td>
-                        <td>TestAdmin</td>
-                        <td>BASE</td>
-                        <td>29/29/29</td>
-                        <td></td>
-                        <td>Approved by COS</td>
-                    </tr>
-                    <tr>
-                        <td>{data[3]['SCA Number']}</td>
-                        <td>Sep 2016 to Aug 2021</td>
-                        <td>$123456789</td>
-                        <td>$987654321</td>
-                        <td>TestAdmin</td>
-                        <td>BASE</td>
-                        <td>29/29/29</td>
-                        <td></td>
-                        <td>Approved by COS</td>
-                    </tr>
-                </table>
+        <div class="box">
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>SCA Number</th>
+                            <th>Contract Duration</th>
+                            <th>Total Project Cost</th>
+                            <th>Requested Cost</th>
+                            <th>COR</th>
+                            <th>Contract Term</th>
+                            <th>Submission Date</th>
+                            <th>SCARB Review</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                        <TableContent/>
+                </table> 
             </div>
+        </div>
         </div>
         );
 }

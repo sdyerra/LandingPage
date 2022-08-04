@@ -4,9 +4,10 @@
 .boxr {
     border:1px solid #707070;
     width:26%;
-    height: 101.20%;
+    height: 105.4vh;
     position: absolute;
     right: 2%;
+    top: 22.2%;
 }
 
 .sfy {
