@@ -64,19 +64,39 @@ export default function Table() {
 
     // Dynamically fetching all data from Indexeddb using map
     function TableContent() {
+        const scanumberstyle = {
+            width:"17%"
+        }
+
+        // Sets Different Colors depending on Status ID
+        function statusstyle(props) {
+            if (parseInt(props) === 1) {
+                return {color:"purple"};
+            }
+            else if (parseInt(props) === 2){
+                return {color:"green"};
+            }
+            else if (parseInt(props) === 3) {
+                return {color:"#AC7B56"};
+            }
+            else if (parseInt(props) === 9) {
+                return {color:"green"};
+            }
+        }
+
         return (
             <tbody>              
                 {data.map((contract) => (
                     <tr key={contract.ID}>
-                        <td>{contract['SCA Number']}</td>
+                        <td style={scanumberstyle}> <input type="checkbox"></input><p>{contract['SCA Number']}</p></td>
                         <td>Sep 2016 to Aug 2021</td>
                         <td>${contract['Total Project Cost']}</td>
                         <td>$1000</td>
                         <td>{contract["Created By"]}</td>
                         <td>{contract['Contract Term']}</td>
                         <td>1/1/11</td>
-                        <td></td>
-                        <td>{contract["Status:Title"]}</td>
+                        <td>N/A</td>
+                        <td style={statusstyle(contract['Status:ID'])}>{contract["Status:Title"]}</td>
                     </tr>
               ))}
             </tbody>

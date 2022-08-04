@@ -48,12 +48,17 @@
     margin-left: 5px;
 }
 
+tr:nth-child(odd + 1)   { background-color: white; }
+tr:nth-child(even)    { background-color:#e8f1fb; }
+
 .table {
-    overflow:scroll;
+    overflow:auto;
     font-family: 'Source Sans Pro', sans-serif;
     table-layout: fixed;
-    word-wrap: break-word;
+    border-collapse: collapse;
 }
+
+
 
 .table thead {
     font-family: 'Lato', sans-serif;
@@ -61,12 +66,29 @@
     background-color: #6A9ED8;
     color: white;
     width: 100%;
-    top: 0px;
     position: sticky;
+    top: 0px;
 }
 
-.tablecontent {
-    table-layout: fixed;
-    word-wrap: break-word;
-    overflow: auto; 
+.table thead tr {
+    height: 40px;
+}
+
+.table tbody tr {
+    text-align: left;
+    height: 74px;
+    font-size: 9pt;
+    font-weight: bold;
+    color:rgb(106, 103, 103);
+}
+
+
+.table tbody p {
+    display: inline;
+    margin-left: 5px;
+}
+
+.table tbody tr input {
+    margin-left:10px;
+    float:left;
 }
