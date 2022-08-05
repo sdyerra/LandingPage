@@ -42,7 +42,6 @@ var tablePromise = new Promise(function(resolve, reject) {
 
         getReq.onsuccess = () => {
             console.log("Getting contract data was successful");
-            console.log(getReq.result);
             resolve();
         }
 

@@ -1,8 +1,23 @@
 import React from 'react';
 import './Filter.css';
 
+
+
+
 export default function Filter()
 {
+    function DirFilter() {
+        var data = (JSON.parse(localStorage.getItem('metadata'))).Metadata;
+        return ( 
+            <select>
+                <option>ALL</option>
+                {data.map((filter) => (
+                <option>{filter.Directorates}</option>
+            ))}
+            </select>
+        );    
+    }
+
     // HTML below is for filters
     return (
         <div class="boxr">
@@ -15,9 +30,7 @@ export default function Filter()
             <div class="filterstitle">
                 <p id="heading">FILTERS</p>
                 <p>DIR</p>
-                <select>
-                    <option>ALL</option>
-                </select>
+                <DirFilter/>
             </div>
             <div class="filters">
                 <p id="contract">Contract Number #</p>
