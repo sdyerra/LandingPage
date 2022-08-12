@@ -113,14 +113,14 @@ export default function Table() {
     // HTML below is for table
     return (
         <div>
-        <div class="topbar">
+        <div className="topbar">
                 <div>
                     <p>IN REVIEW REQUESTS</p>
                 </div>
                 <p id="counter">5</p>
                 <button>SAVE AS</button>
             </div>
-        <div class="box">
+        <div className="box">
             <div>
                 <table>
                     <thead>

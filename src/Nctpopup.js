@@ -51,13 +51,26 @@ var newsPromise = new Promise(function(resolve, reject) {
 // HTML Below is for the popup section of the news menu
 export default function Nctpopup (props) {
 
+    //Where the news popup logic is housed
     function NewsPopup () {
-        const [newsdata, setnewsData] = useState([{ Title: 'Loading...', Path: 'Loading' }])
+        //before the news data is loaded this is what is shown
+        const [newsdata, setnewsData] = useState([{ Title: 'Loading...', Description: 'Loading' }])
+
+        const [newsDesc, setNewsDesc] = useState('Loading..');
       
         // function for adding data to the table
         function addNewsData () {
           setnewsData(getNewsReq.result)
         }
+
+        // function for showing and hiding the news text
+        function HideNewsText() {
+            var newstext = "Hello"
+            setNewsDesc(newstext)
+            
+        }
+
+        HideNewsText("hello");
       
         // when the request is finished run the addTableData function
         newsPromise.then(whencompleted => addNewsData())
@@ -69,8 +82,8 @@ export default function Nctpopup (props) {
                     {newsdata.map((news) => (
                     <tr key={news.Title}>
                         <div>
-                            <p>{news.Title}</p>
-                            <p>{news.Description}</p>
+                            <h1>{news.Title}</h1>
+                            <p>{newsDesc}</p>
                         </div>
                     </tr>
                     ))}

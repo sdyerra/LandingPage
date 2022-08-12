@@ -2,15 +2,22 @@
 
 .popup {
     font-family: 'Source Sans Pro', sans-serif;
-    width: 100%;
+    width: auto;
     height: 300px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     overflow: auto;
-    display: flex;
+    display:list-item;
     justify-content: center;
+
 }
 
-.popup table {
+.popup table h1 {
+    font-size: 10pt;
+    text-align: left;
+    color:rgb(0, 72, 255) ;
+}
 
+.popup table p {
+    font-size: 10pt;
 }
