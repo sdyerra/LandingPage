@@ -122,7 +122,7 @@ export default function Table() {
             </div>
         <div class="box">
             <div>
-                <table class="table">
+                <table>
                     <thead>
                         <tr>
                             <th>SCA Number</th>

@@ -66,12 +66,16 @@
 }
 
 #arrow {
+    margin-left:auto;
+    margin-right: 10px;
     width: 6%;
     height: 10%;
     transform: rotate(0.5turn);
 }
 
 #arrow2 {
+    margin-left:auto;
+    margin-right: 10px;
     width: 6%;
     height: 10%;
 }

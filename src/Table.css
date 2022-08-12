@@ -48,10 +48,10 @@
     margin-left: 5px;
 }
 
-tr:nth-child(odd + 1)   { background-color: white; }
-tr:nth-child(even)    { background-color:#e8f1fb; }
+.box tr:nth-child(odd + 1)   { background-color: white; }
+.box tr:nth-child(even)    { background-color:#e8f1fb; }
 
-.table {
+.box table {
     overflow:auto;
     font-family: 'Source Sans Pro', sans-serif;
     table-layout: fixed;
@@ -60,7 +60,7 @@ tr:nth-child(even)    { background-color:#e8f1fb; }
 
 
 
-.table thead {
+.box table thead {
     font-family: 'Lato', sans-serif;
     font-size: 10pt;
     background-color: #6A9ED8;
@@ -70,11 +70,11 @@ tr:nth-child(even)    { background-color:#e8f1fb; }
     top: 0px;
 }
 
-.table thead tr {
+.box table thead tr {
     height: 40px;
 }
 
-.table tbody tr {
+.box table tbody tr {
     text-align: left;
     height: 74px;
     font-size: 9pt;
@@ -83,12 +83,12 @@ tr:nth-child(even)    { background-color:#e8f1fb; }
 }
 
 
-.table tbody p {
+.box table tbody p {
     display: inline;
     margin-left: 5px;
 }
 
-.table tbody tr input {
+.box table tbody tr input {
     margin-left:10px;
     float:left;
 }

@@ -1,11 +1,20 @@
 import React from 'react';
 import './Filter.css';
 
-
-
-
 export default function Filter()
 {
+    function ContractTermFilter() {
+        var data = (JSON.parse(localStorage.getItem('metadata'))).Metadata;
+        return ( 
+            <select style={{width:"80%"}}>
+                <option>Select</option>
+                {data.map((filter) => (
+                <option>{filter['Contract Term']}</option>
+            ))}
+            </select>
+        );    
+    }
+
     function DirFilter() {
         var data = (JSON.parse(localStorage.getItem('metadata'))).Metadata;
         console.log(data);
@@ -20,10 +29,9 @@ export default function Filter()
     }
     function SCAFilter() {
         var data = (JSON.parse(localStorage.getItem('metadata'))).Metadata;
-        console.log(data);
         return ( 
             <div>
-                <select style={{width:"25%", 'margin-left':'10px'}}>
+                <select style={{width:"25%", marginLeft:'10px'}}>
                 {data.map((filter) => (
                 <option>{filter['Primary Staff']}</option>
                 ))}
@@ -60,14 +68,18 @@ export default function Filter()
             <div class="filters">
                 <p id="contract">Contract Number #</p>
                 <input></input>
-                <p style={{"margin-left":"10px"}}>SCA Number</p>
+                <p style={{marginLeft:"10px"}}>SCA Number</p>
                 <SCAFilter/>
-                <p style={{'margin-left':'10px'}}>Scarb Review</p>
-                <select style={{width:"80%"}}></select>
-                <p style={{'margin-left':'10px'}}>Contract Term</p>
-                <select style={{width:"80%"}}></select>
-                <p style={{'margin-left':'10px'}}>COR</p>
-                <select style={{width:"80%"}}></select>
+                <p style={{marginLeft:'10px'}}>Scarb Review</p>
+                <select style={{width:"80%"}}>
+                    <option>Select</option>
+                </select>
+                <p style={{marginLeft:'10px'}}>Contract Term</p>
+                <ContractTermFilter/>
+                <p style={{marginLeft:'10px'}}>COR</p>
+                <select style={{width:"80%"}}>
+                    <option>Select</option>
+                </select>
             </div>
             <div class="wheel">
                 <h1>STAGES</h1>
